@@ -457,6 +457,57 @@ a:hover, a:focus {
 .btn:hover i {
 	color: #333333;
 }
+
+.btn-slide {
+	border: none;
+	color: #fff;
+	display: inline-block;
+	border-radius: 4px;
+	height: 40px;
+	position: relative;
+	overflow: hidden;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 0px;
+	text-align:left;
+	padding-right:55px;
+	padding-left: 20px;
+	line-height: 40px;
+	background: #18a34a;
+	letter-spacing: 0.5px;
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-ms-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
+	box-shadow: 0 5px 6px rgba(0,0,0,0.36), 0 3px 6px rgba(0,0,0,0.43);
+}
+.btn-slide i {
+	color: #16284B;
+	background: #e6e6e6;
+	height: 41px;
+	padding: 0 15px;
+	float: right;
+	position:absolute;
+	top:0px;
+	right:0px;
+	line-height: 41px;
+	margin-left: 20px;
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-ms-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
+}
+.btn-slide:hover {
+	background: #ed3026;
+	color: #fff;
+}
+.btn-slide:hover i {
+	color: #333333;
+}
+
 .btn-1 i {
 	background: #333333;
 	color: #fff;
@@ -815,12 +866,12 @@ header .navbar li.active a {
 ========================================================*/
 .home-slide {
 	position: relative;
-	height:350px;
+	height:260px;
 	
 	 
 }
 .home-slide li {
-	height: 350px;
+	height: 260px;
 	text-align: center;
 	position: relative;
 
@@ -845,8 +896,8 @@ header .navbar li.active a {
 	letter-spacing:9px;
 }
 .home-slide .slide-img-1 {
-	background: url("../images/test.jpg") center center no-repeat;
-	background-size: cover;
+	background: url("../images/Banner 1- wellness newsletter.png") center center no-repeat;
+	background-size: contain;
 
 
 
@@ -855,9 +906,22 @@ header .navbar li.active a {
 
 }
 .home-slide .slide-img-2 {
-	background: url("../images/newgroupy.png") center center no-repeat;
-	background-size: cover;
+	background: url("../images/Banner 1- healthcare consumer.png") center center no-repeat;
+	background-size: contain;
 }
+
+
+.home-slide .slide-img-3 {
+	background: url("../images/Banner 1- 401k.png") center center no-repeat;
+	background-size: contain;
+}
+
+.home-slide .slide-img-4 {
+	background: url("../images/Banner 1-Optum Banner.png") center center no-repeat;
+	background-size: contain;
+}
+
+
 .home-slide .flex-control-nav {
 	position: absolute;
     z-index: 99;
@@ -3600,8 +3664,8 @@ a.sm-tags:hover {
 	left: 0px;
 }
 .bg1-body {
-	background: url("../images/spiral-bg.png") fixed no-repeat;
-	background-size: cover;
+	background: url("../images/subtle_stripes_@2X.png") fixed repeat;
+	
 }
 #wrap.boxed-layout .contact.style-2 .contact-right {
 	padding-right: 20px;
